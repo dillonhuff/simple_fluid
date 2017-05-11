@@ -13,7 +13,7 @@ SET(CMAKE_CXX_FLAGS  "${CMAKE_CXX_FLAGS} ${EXTRA_CXX_COMPILE_FLAGS}")
 
 INCLUDE_DIRECTORIES(./src/)
 
-SET(CPP_FILES )
+SET(CPP_FILES ./src/scalar_field.cpp)
 
 SET(TEST_FILES ./test/grid_tests.cpp)
 
